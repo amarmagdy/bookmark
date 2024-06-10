@@ -1,0 +1,102 @@
+body{
+    background-color: #F7ECDE;
+    position: relative;
+}
+.fs-21{
+    font-size: 21px;
+}
+#addBtn{
+    color: white;
+    background-color: #D1512D;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.layer{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.window{
+    height: 250px;
+    width: 480px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.x{
+    transform: translate(170px);
+}
+#addBtn:hover{
+    background-color: #bb4120;
+}
+.output{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.292);
+}
+#xBtn{
+    border: none;
+    background-color: white;
+}
+#deleteBtn{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#visitBtn{
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    transition: all 0.2s;
+}
+#h3{
+    font-family: "Pacifico", cursive;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    font-size: 50px;
+}
+#deleteBtn:hover{
+    background-color: #ba081d;
+}
+#visitBtn:hover{
+    background-color: #9eb23b;;
+}
+#h2{
+    font-family: "Righteous", cursive;
+}
+#h3::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 25%;
+    
+    bottom: 10px;
+    background-color: #fec260;
+    z-index: -1;
+}
+#h3:hover #h3::before{
+    background-color: #9eb23b;
+}
